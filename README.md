@@ -25,6 +25,7 @@ The first column is name of the series, all other columsn in the row contains pi
 
 ## Technologies Used
 
+    - ReactJS
     - Angular2 (angular-cli)
     - D3
     - NodeJs, ExpressJs
@@ -33,13 +34,13 @@ The first column is name of the series, all other columsn in the row contains pi
 ## UI Setup
 
 ### Prerequisites
-    - Angular cli
+    - Webpack & Webpack-dev-server
 
-Go to `/ui` folder and run below commands.
+Go to `/ui-reactjs` folder and run below commands.
 
 ```sh
 $ npm install
-$ ng serve
+$ npm start
 ```
 
 ## Server Setup
@@ -48,7 +49,7 @@ $ ng serve
     - Gulp
     - MongoDB
 
-Go to `/server` folder and run below commands.
+Go to `/server` folder and run below commands. Please make sure to run MongoDB server
 
 ```sh
 $ npm install
