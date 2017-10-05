@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint app"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +14,9 @@
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.2.1",
     "mongoose": "^4.11.11"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.1",
+    "pre-commit": "^1.2.2"
   }
 }
